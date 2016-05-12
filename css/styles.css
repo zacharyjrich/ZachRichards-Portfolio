@@ -1,3 +1,12 @@
+body {
+  background-color: #20b2aa;
+}
+
+.page-header {
+  border-bottom: 1px solid black;
+  padding-bottom: 35px;
+  margin-bottom: 35px;
+}
 .nav a {
   color: black;
 }
