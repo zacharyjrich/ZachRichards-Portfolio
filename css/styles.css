@@ -1,25 +1,43 @@
 body {
   background-color: #20b2aa;
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
+
 }
 
-.page-header {
-  border-bottom: 1px solid black;
-  padding-bottom: 35px;
-  margin-bottom: 35px;
-}
-.nav a {
-  color: black;
+/*Header Section*/
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  background-color: #48d1cc;
 }
 
-.nav a:after {
-  content: "/";
+.navbar-brand {
+  color: black !important;
 }
 
-.experience {
+.navSection a {
+  color: black !important;
+}
+
+.navSection a:hover {
+  color: white !important;
+}
+
+ /*About Section*/
+.about-me {
   margin-top: 50px;
 }
 
-.experience h2 {
+.about-me h2 {
+  margin-bottom: 35px;
+}
+
+/*Experience Section*/
+
+.experience-section h2 {
+  margin-top: 80px;
   margin-bottom: 30px;
 }
