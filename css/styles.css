@@ -30,31 +30,35 @@ body {
  /*About Section*/
 
 .about-me {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding: 50px 15px 70px 15px;
 }
 
 .about-me h2 {
-  margin-bottom: 35px;
+  padding-bottom: 25px;
 }
 
-/*Experience Section*/
-
-.experience {
-  background-color: #00ced1;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.projects {
+  list-style-position: inside;
+  padding-left: 0;
 }
 
-.experience h2 {
-  padding-bottom: 30px;
+.projects a {
+  color: black;
 }
+/*Why Code Section*/
 
 .why-code {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background-color: #d3d3d3;
+  padding: 40px;
 }
 
 .why-code h2 {
   padding-bottom: 30px;
+}
+
+/*Footer Section*/
+
+.footer {
+  background-color:#87cefa;
+  padding: 40px;
 }
