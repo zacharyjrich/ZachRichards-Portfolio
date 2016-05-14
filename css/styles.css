@@ -20,6 +20,7 @@ body {
 
 .navSection a {
   color: black !important;
+  text-decoration: underline;
 }
 
 .navSection a:hover {
@@ -27,8 +28,10 @@ body {
 }
 
  /*About Section*/
+
 .about-me {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .about-me h2 {
@@ -37,7 +40,21 @@ body {
 
 /*Experience Section*/
 
-.experience-section h2 {
-  margin-top: 80px;
-  margin-bottom: 30px;
+.experience {
+  background-color: #00ced1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.experience h2 {
+  padding-bottom: 30px;
+}
+
+.why-code {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.why-code h2 {
+  padding-bottom: 30px;
 }
