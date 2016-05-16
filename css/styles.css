@@ -1,7 +1,11 @@
 body {
   background-color: #20b2aa;
   font-family: Verdana, sans-serif;
+}
 
+span {
+  font-style: italic;
+  color: #9966ff;
 }
 
 /*Header Section*/
@@ -16,6 +20,10 @@ body {
 
 .navbar-brand {
   color: black !important;
+}
+
+.navSection ul {
+  float: right;
 }
 
 .navSection a {
@@ -37,14 +45,15 @@ body {
   padding-bottom: 15px;
 }
 
-.projects {
+.project-links {
   list-style-position: inside;
   padding-left: 0;
 }
 
-.projects a {
+.project-links a {
   color: black;
 }
+
 /*Why Code Section*/
 
 .why-code {
