@@ -45,12 +45,12 @@ span {
   padding-bottom: 15px;
 }
 
-.project-links {
+.projects {
   list-style-position: inside;
   padding-left: 0;
 }
 
-.project-links a {
+.projects a {
   color: black;
 }
 
